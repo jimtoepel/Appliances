@@ -10,6 +10,13 @@
 
 @implementation BNRAppliance
 
+- (instancetype) init
+{
+    return [self initWithProductName:@"Unknown"];
+    
+}
+
+
 - (instancetype) initWithProductName:(NSString *)pn
 {
     // Call the NSObject init method
@@ -28,6 +35,11 @@
     
     // Return a pointer to the new object
     return self;
+}
+
+- (NSString *) description
+{
+    return [NSString stringWithFormat:@"<%@: %d volts>", self.productName, self.voltage];
 }
 
 @end
