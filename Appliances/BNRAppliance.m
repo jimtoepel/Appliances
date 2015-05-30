@@ -26,10 +26,10 @@
     if (self) {
         
         // Set the product name
-        _productName = [pn copy];
+        [self setProductName:pn];
         
         // Give voltage a starting value
-        _voltage = 120;
+        [self setVoltage:120];
         
     }
     
