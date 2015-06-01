@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B1796AE11B157CC800936B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1796AE01B157CC800936B26 /* main.m */; };
 		B1796AE91B157F8200936B26 /* BNRAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = B1796AE81B157F8200936B26 /* BNRAppliance.m */; };
+		B1BFFF561B1BFB0C0079B8D9 /* BNROwnedAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BFFF551B1BFB0C0079B8D9 /* BNROwnedAppliance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		B1796AE01B157CC800936B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1796AE71B157F8200936B26 /* BNRAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAppliance.h; sourceTree = "<group>"; };
 		B1796AE81B157F8200936B26 /* BNRAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAppliance.m; sourceTree = "<group>"; };
+		B1BFFF541B1BFB0C0079B8D9 /* BNROwnedAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNROwnedAppliance.h; sourceTree = "<group>"; };
+		B1BFFF551B1BFB0C0079B8D9 /* BNROwnedAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNROwnedAppliance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				B1796AE01B157CC800936B26 /* main.m */,
 				B1796AE71B157F8200936B26 /* BNRAppliance.h */,
+				B1BFFF541B1BFB0C0079B8D9 /* BNROwnedAppliance.h */,
+				B1BFFF551B1BFB0C0079B8D9 /* BNROwnedAppliance.m */,
 				B1796AE81B157F8200936B26 /* BNRAppliance.m */,
 			);
 			path = Appliances;
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1796AE91B157F8200936B26 /* BNRAppliance.m in Sources */,
+				B1BFFF561B1BFB0C0079B8D9 /* BNROwnedAppliance.m in Sources */,
 				B1796AE11B157CC800936B26 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +247,7 @@
 				B1796AE61B157CC800936B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
