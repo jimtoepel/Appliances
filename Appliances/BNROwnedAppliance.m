@@ -16,6 +16,13 @@
 
 @implementation BNROwnedAppliance
 
+
+- (instancetype)initWithProductName:(NSString *)pn
+{
+    return [self initWithProductName:pn firstOwnerName:nil];
+}
+
+
 - (instancetype)initWithProductName:(NSString *)pn
                      firstOwnerName:(NSString *)n
 {
